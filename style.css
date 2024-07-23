@@ -1,0 +1,231 @@
+body{
+background-image: url(imgs/programador.jpg);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu-de-navegacion {
+    color: white;
+    font-size: 35px;
+    padding: 15px 10px 15px 10px;
+    margin-left: 500px;
+    word-spacing: 50px;
+    letter-spacing: 3px;
+    position: fixed;
+    position: center;
+    text-align: center;
+    background-color: rgb(33, 245, 114);
+    border-radius: 3%;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#datos-personales {
+    font-size: 35px;
+    background-color: transparent;
+}
+
+#datos-de-contacto {
+    font-size: 25px;
+    padding-top: 30px;
+    
+}
+
+#github{
+    color: white;
+    text-decoration-color: aliceblue;
+}
+
+#linkedin {
+    color: white;
+    text-decoration-color: white;
+}
+
+#curriculum {
+    color: aliceblue;
+    text-decoration-color: whitesmoke;
+}
+
+#foto-de-perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*transform: translate(600px, 0);*/
+    /*animation: entrada 2s, infinite;*/
+    animation: escala 8s infinite;
+}
+
+.perfil{
+    text-align: center;
+    text-decoration: rgb(192, 36, 9);
+    font-size: 35px;
+}
+
+@keyframes escala {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.5);
+
+    }
+}
+
+/*
+@keyframes entrada {
+    25% {
+transform: translate(800px, 0px);
+    }
+}*/
+#inspector {
+    letter-spacing: 10px;
+    text-align: left;
+    text-shadow: 3px 1px 2px red;
+
+}
+
+.inspector {
+    padding: auto;
+    text-align: left;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.contenedor-aviones {
+    margin-left: 30px;
+    gap: 10px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+#aeromexico {
+    width: 600px;
+    height: 400px;
+    
+}
+
+#lufthansa {
+    width: 600px;
+    height: 400px;
+}
+
+#viva {
+    width: 600px;
+    height: 400px;
+}
+
+.contenedor-informatica {
+    margin-left: 30px;
+    gap: 10px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+#office {
+    width: 600px;
+    height: 400px;
+}
+
+#windows {
+    width: 600px;
+    height: 400px;
+}
+
+#procesador {
+    width: 600px;
+    height: 400px;
+}
+
+#docente {
+    font: 25px;
+    color: white;
+    letter-spacing: 12px;
+}
+
+.docente {
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.lista-analista {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    line-height: 50px;
+ 
+}
+
+.contenedor-de-imagenes {
+    gap: 15px;
+    margin-left: 35px;
+}
+
+.imagenes-analista{
+    width: 600px;
+    height: 400px;
+    
+    gap: 20px;  
+}
+
+.footer {
+    color: aqua;
+}
+.politecnico-mexico {
+    font-size: 35px;
+}
+
+.politecnico-colombia{
+    font-size: 35px;
+}
+
+.azul-school {
+    font-size: 35px;
+}
+
+/*Estilos para la pagina de adicionales*/
+
+#padre {
+    color:black;
+    display: flex;
+    gap: 200px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+#hijo1 {
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgb(12, 224, 93);
+}
+
+#hijo2 {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(47, 233, 30);
+    font-size: 25px;
+    text-shadow: 4px 1px 2px rgb(244, 247, 245);
+}
+
+#hijo3 {
+    width: 600px;
+    height: 400px;
+    color: aliceblue;
+    background-color: rgb(123, 76, 252);
+    font-size: 25px;
+    /*margin-left: 8px;*/
+    padding-left: 15px;
+}
+
+
+

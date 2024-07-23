@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+}
+#padre {
+    background-color: grey;
+    width: 1600px;
+    height: 1000px;
+    display: flex;
+    gap: 15px;
+    /*flex-direction: row-reverse; (Este comando ejecuta las cajas en orden inverso)*/
+    flex-flow: wrap;/*Este comando hace que las cajas se apilen hacia abajo si no caben en la pantalla*/
+
+}
+
+#hijo1 { 
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    
+}
+
+#hijo2 {
+    background-color: rgb(14, 87, 87);
+    height: 300px;
+    width: 300px;
+    
+}
+
+#hijo3 {
+    background-color: rgb(135, 224, 224);
+    height: 300px;
+    width: 300px;
+   
+}
+
+#hijo4 {
+    background-color: rgb(41, 180, 76);
+    height: 300px;
+    width: 300px;
+   
+}
+
+#hijo5 {
+    background-color: rgb(85, 39, 211);
+    height: 300px;
+    width: 300px;
+    
+}
+
